@@ -1,0 +1,37 @@
+
+
+
+
+
+
+/* BoggleProj.cpp : Boggle game solver 
+General Rules (From Wiki):
+
+1.Board Size : N * N 
+2.Time : 3 min // skipping this
+3.Each player searches for words that can be constructed from the letters of sequentially adjacent cubes, where "adjacent" cubes are those horizontally, vertically, and diagonally neighboring. 
+4.Words must be at least three letters long
+5.Words may include singular and plural (or other derived forms) separately
+6.May not use the same letter cube more than once per word
+7. Score 
+
+Word
+length	Points
+---------------
+3, 4	1
+
+5	    2
+
+6	    3
+
+7	    5
+
+8+	    11
+
+8. Not considering elimination of duplicates 
+*/
+
+Instructions to run the program:
+
+g++ -o Boggle Boggle.cpp Boggle.h Dictionary.cpp Dictionary.h
+./Boggle
