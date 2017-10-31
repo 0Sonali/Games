@@ -1,4 +1,4 @@
-/* BoggleProj.cpp : Boggle game solver 
+BoggleProj.cpp : Boggle game solver 
 General Rules (From Wiki):
 
 1.Board Size : N * N 
@@ -23,7 +23,7 @@ length	Points
 8+	    11
 
 8. Not considering elimination of duplicates 
-*/
+
 
 Instructions to run the program:
 
